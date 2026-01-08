@@ -1,0 +1,8 @@
+tr success : success [0,0] OK -> OK
+tr t1 : SYNC [0,w[ WaitSync -> Waiting
+tr t0 [0,0] Waiting*2 -> OK
+tr timeout [210,210] Waiting ->
+pl Waiting (1)
+pl WaitSync (1)
+net end
+
