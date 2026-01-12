@@ -12,3 +12,5 @@ python3 genSupply.py
 ```
 
 The script will ask for a number of supplier and the higher bound of the manager net generated.
+
+For severals managers, you need to manually add a token to the starting place in Manager.net.
