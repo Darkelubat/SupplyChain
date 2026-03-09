@@ -12,14 +12,14 @@ python3 genSupply.py
 ```
 
 The script will ask for:
-  \*the number of suppliers, and
-  \*the upper bound of the manager net to be generated.
+  * the number of suppliers, and
+  * the upper bound of the manager net to be generated.
 
 It generates several files:
 
-\*SupplierX.net: the .net file describing a supplier.
-\*Manager.net: the manager net managing all previously generated suppliers.
-\*BAZ.net: the factory net launching all supply orders.
+* SupplierX.net: the .net file describing a supplier.
+* Manager.net: the manager net managing all previously generated suppliers.
+* BAZ.net: the factory net launching all supply orders.
 
 For several managers, you need to manually add a token to the starting place in Manager.net. This can be done using a text editor or NetDrawner (ND) from the TINA toolbox.
 
