@@ -32,3 +32,7 @@ twina -aut fuse.tpn
 ```
 
 The end-of-line net is already provided in this repository.
+
+Example configuration:
+Suppliers = 3
+Manager validation delay = 6 (for a [2,6] delay)
